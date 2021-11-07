@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+
+#city-input, 
+#weather-output {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.72)), url('https://source.unsplash.com/1600x900/?nature,water') no-repeat center/cover;
+    height: 100vh;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.banner {
+    display: inline-block;
+    width: 200px;
+    background-color: rgb(27, 27, 19);
+    color: #FFD23F;
+    border-radius: 20px;
+    font-weight: 600;
+    margin: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.social-media {
+    /* color: rgb(255, 0, 242); */
+    border-top: 1px solid rgb(121, 120, 117);
+    display: inline-block;
+    width: 100px;
+
+}
